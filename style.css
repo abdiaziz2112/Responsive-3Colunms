@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  .container{
+  
+  font-family:  sans-serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  
+  background-color: whitesmoke;
+  padding: 30px;
+  margin: 25px;
+  
+  }
+  .card-1{
+      background: hsl(31, 77%, 52%);
+      color: #fff;
+      height: 600px;
+      padding: 2px;
+      margin: 10pxpx;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px 0px 0px 10px;
+      text-align: left;
+
+
+  }
+
+  .card-2{
+    background: hsl(184, 100%, 22%);
+    color: #fff;
+    height: 600px;
+    padding: 2px;
+    margin: px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 0px 0px;
+    text-align: left;
+
+
+}
+
+.card-3{
+    background:  hsl(179, 100%, 13%);
+    color: #fff;
+    height: 600px;
+    padding: 2px;
+    margin: px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 10px 10px 0px;
+    text-align: left;
+
+
+}
+
+
+
+  .cols h1,p,button,img{
+      display: flex;
+      flex-direction: column;
+      padding: 25px;
+      margin: 30px;
+      
+  }
+  .cols .btn-sadam{
+      border-radius: 20px;
+      border: 0;
+      padding: 10PX 25PX;
+      font-size: 30PX;
+      font-weight: 300;
+      font-style: bold;
+      
+      cursor: pointer;
+      
+  }
+  .cols .btn-sadam:hover{
+      background-color: gray;
+      color: #fff;
+  }
+  .pr{
+      
+      margin-bottom: 70px;
+  }
+  @media only screen and (max-width: 720px) {
+    body{
+      width: 100%;
+      padding:25px;
+    }
+
+    .container{
+  
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        }
+  }
+  
